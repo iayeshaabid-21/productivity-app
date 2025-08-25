@@ -1,0 +1,19 @@
+{
+  "name": "productivity-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "server": "nodemon backend/server.js",
+  "client": "npm start --prefix frontend/frontend",
+  "dev": "concurrently \"npm run server\" \"npm run client\""
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
